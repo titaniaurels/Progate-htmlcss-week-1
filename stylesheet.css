@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(62, 63, 68);
+    position: fixed;
+    z-index: 10;
+}
+header .container{
+    display: flex;
+
+}
+.header-logo{
+    width: 250px;
+    height: 65px;
+}
+.header-logo p{
+    line-height: 65px;
+    padding:0 25px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: white;
+}
+/* .menu-icon{
+    display: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+} */
+.header-list{
+    display: flex;
+    height: 65px;
+}
+.header-list a{
+    display:block;
+    color: white;
+    line-height: 65px;
+    padding: 0 10px;
+}
+.header-list a:hover{
+    opacity: 0.5;
+}
+.top-wrapper .container{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-wrapper h1{
+    text-align: center;
+    font-size: 100px;
+}
+.top-wrapper h1 span{
+    color: yellow;
+}
+.top-wrapper h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.Logo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.top-wrapper img{
+    width: 300px;
+}
+.about-me{
+    height: auto;
+    background-color: rgb(244, 244, 244);
+    padding: 60px;
+}
+.about-me h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-me p{
+    text-align: center;
+
+}
+.projects{
+    height: auto;
+    padding: 60px 20px;
+}
+.projects h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+
+.project img{
+    width: 200px;
+    align-items: center;
+}
+.project p{
+    text-align: center;
+}
+.contact-us{
+    height: auto;
+    padding: 50px 100px 70px 100px;
+    background-color:  rgb(244, 244, 244);
+    text-align: center;
+}
+.isi-pesan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hubungi{
+    width: 500px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0;
+}
+.email{
+    height: 40px;
+    padding: 10px;
+}
+.pesan{
+    /* max-width: 500px; */
+    /* min-width: 500px; */
+    min-height: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.contact-submit{
+    border: none;
+    border-radius: 4px;
+    width:300px;
+    height: 30px;
+    background-color: #F7EA8A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-submit:hover{
+    opacity: 0.8;
+}
+footer{
+    background-color: #7D7E83;
+    padding: 20px 10px;
+    height: 100px;
+}
+.footer-logo{
+    color: white;
+    font-size: 30px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+}
+.footer-list a{
+    color: white;
+    text-align: right;
+    margin-top: 5px;
+}
